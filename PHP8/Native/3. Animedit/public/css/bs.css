@@ -1,0 +1,17 @@
+*{
+    scroll-behavior: smooth;
+}
+
+/* Scroll Bar */
+html::-webkit-scrollbar {
+    width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+ }
+
+html::-webkit-scrollbar-thumb {
+    background: #0dcaf0;
+    border-radius: 80px;
+}

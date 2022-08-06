@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bg-color: #fff;
+  --text-color: #0f0c27;
+  --footer-color: rgb(0, 164, 214);
+  --button-carousel: rgb(0, 164, 214);
+}
+body.active {
+  --text-color: #fff;
+  --bg-color: rgb(0, 164, 214);
+  --paragraph: rgb(0, 164, 214);
+  --footer-color: #fff;
+  --button-carousel: #000;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+*::selection {
+  color: var(--bg-color);
+  background: var(--text-color);
+}
+/* Scroll Bar */
+html::-webkit-scrollbar {
+  width: 7px;
+  background-color: #88e3ff;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #0096d1;
+  border-radius: 25px;
+}
+p {
+  color: var(--paragraph);
+}
+h4 {
+  color: var(--paragraph);
+}
+.mt-2 {
+  margin-top: 0.2rem !important;
+}
+.text-header {
+  color: var(--text-color);
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+  /* padding: 0px 50px; */
+  transition: 0.2s;
+}
+.shadow {
+  box-shadow: 0 0rem 5px rgba(122, 213, 255, 1) !important;
+}
+.logo {
+  /* display: none; */
+  padding: 0px 325px 0px 0px;
+  font-size: 17.6px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 20px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+.navbar li {
+  margin-top: 15px;
+  list-style: none;
+}
+.navbar a:hover {
+  background: #2bb5df;
+}
+.login {
+  padding: 0px 0px 0px 325px;
+  font-weight: 500;
+  text-align: right;
+}
+.login a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 15px 14px;
+}
+.login a:hover {
+  background: #20cbff;
+}
+#menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+#greenmode {
+  font-size: 20px;
+  margin: 15px 0px 0px 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+.section-padding {
+  padding: 150px 0;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.bg-img {
+  width: 1920px;
+}
+.carousel-text {
+  color: white;
+}
+.carousel-caption {
+  bottom: 120px;
+  height: 50% !important;
+  z-index: 2;
+}
+.carousel-caption a {
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.btn-carousel {
+  color: var(--bg-color);
+  background-color: var(--text-color);
+}
+.btn-carousel:hover {
+  color: var(--button-carousel);
+  background-color: var(--text-color);
+}
+.carousel-inner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.description-about {
+  color: var(--text-color);
+}
+.section-quote {
+  padding: 150px 0;
+}
+.quote-waifu {
+  visibility: visible;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  background: #313131;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+}
+.quote-waifu h1 {
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 125px;
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+.quote-waifu h2 {
+  color: white;
+}
+.quote-waifu:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.rounded-circle {
+  border-radius: 15% !important;
+  margin-left: 20px;
+}
+.best-waifu .card {
+  box-shadow: 5px 5px 0px rgb(0 0 0 / 5%);
+  border-radius: 10% 10% 10% 10% !important;
+}
+.best-anime .card {
+  box-shadow: 5px 5px 0px rgb(0 0 0 / 5%);
+  border-radius: 10% 10% 10% 10% !important;
+}
+.img-waifu {
+  border-radius: 30px 30px 30px 30px;
+}
+.img-anime {
+  border-radius: 30px 30px 30px 30px;
+}
+.modal-content {
+  background-color: var(--bg-color);
+}
+.btn-primary {
+  background-color: white;
+}
+.btn-outline-info {
+  color: var(--paragraph);
+  border-color: var(--paragraph);
+}
+.btn-outline-info:hover {
+  color: white;
+  background-color: rgb(13, 202, 240);
+}
+.services .card-body i {
+  font-size: 50px;
+}
+.team .card-body i {
+  font-size: 20px;
+}
+.follow .social-media {
+  margin: 20px;
+  text-align: center;
+}
+.follow .social-media i {
+  color: var(--bg-color);
+  justify-content: center;
+}
+.follow .social-media button {
+  border          : none;
+  outline         : none;
+  width           : 45px;
+  height          : 45px;
+  border-radius   : 50%;
+  cursor          : pointer;
+  transition      : transform 0.3s;
+  font-size: 22px;
+  align-items: center;
+  margin-right: 8px;
+  text-align: center;
+}
+/* Social colors */
+.social-media button.devianart {
+  background: var(--footer-color);
+}
+.social-media button.instagram {
+  background: var(--footer-color);
+}
+.social-media button.twitter {
+  background: var(--footer-color);
+}
+.social-media button.github {
+  background: var(--footer-color);
+}
+.follow .social-media button:hover {
+  transform: scale(1.1);
+}
+.sosmed {
+  color: var(--text-color);
+}
+.goTop i {
+  font-size: 50px;
+  text-align: end;
+  margin-left: 80%;
+  color: var(--footer-color);
+}
+footer {
+  background: var(--footer-color);
+  height: 30px;
+}
+.p-1 {
+  color: var(--bg-color);
+}
+.p-1 a {
+  text-decoration: none;
+  color: var(--bg-color);
+}
+
+@media (max-width: 1600px) {
+  .section-padding {
+    padding: 110px 0;
+  }
+  .bg-img {
+    width: 1600px;
+  }
+}
+@media (max-width: 1440px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+  .section-quote {
+    padding: 90px 0;
+  }
+  .logo {
+    /* display: none; */
+    padding: 0px 280px 0px 0px;
+  }
+  .login {
+    padding: 0px 0px 0px 280px;
+  }
+  .navbar a {
+    padding: 14px;
+  }
+  .bg-img {
+    width: 1440px;
+  }
+}
+@media (max-width: 1280px) {
+  .section-padding {
+    padding: 150px 0;
+  }
+  .logo {
+    padding: 0px 225px 0px 0px;
+  }
+  .login {
+    padding: 0px 0px 0px 225px;
+  }
+  .navbar a {
+    padding: 14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .section-padding {
+    padding: 100px 0%;
+  }
+  #menu-icon {
+    display: initial;
+    color: var(--text-color);
+  }
+  nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 10px 5%;
+    transition: 0.1s;
+  }
+  nav .navbar {
+    position: absolute;
+    top: -500px;
+    left: 0px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    transition: 1s ease;
+    text-align: center;
+  }
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar.active {
+    top: 100%;
+  }
+  ol,
+  ul,
+  li {
+    padding-left: 0px;
+    margin: 0px;
+  }
+  .navbar a {
+    padding: 15px 400px;
+    display: block;
+    background: var(--bg-color);
+  }
+  .navbar a:hover {
+    background: #20cbff;
+  }
+  .navbar li {
+    margin-left: -10px;
+    margin-top: 0px;
+  }
+  .logo {
+    display: block;
+    padding: 0px;
+  }
+  #greenmode {
+    position: absolute;
+    top: 0px;
+    right: 40px;
+  }
+  .login {
+    display: none;
+  }
+  .carousel-caption {
+    bottom: 200px;
+  }
+  .carousel-caption p {
+    width: 100%;
+  }
+  .carousel-item {
+    top: 75px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .img-area img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-padding {
+    padding: 75px 3%;
+  }
+  #menu-icon {
+    display: initial;
+    color: var(--text-color);
+  }
+  nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 10px 5%;
+    transition: 0.1s;
+  }
+  nav .navbar {
+    position: absolute;
+    top: -500px;
+    left: 0px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    transition: 1s ease;
+    text-align: center;
+  }
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar.active {
+    top: 100%;
+  }
+  ol,
+  ul,
+  li {
+    padding-left: 0px;
+    margin: 0px;
+  }
+  .navbar a {
+    padding: 15px 175px;
+    display: block;
+    background: var(--bg-color);
+  }
+  .navbar a:hover {
+    background: #20cbff;
+  }
+  .navbar li {
+    margin-left: -10px;
+    margin-top: 0px;
+  }
+  .logo {
+    display: block;
+    padding: 0px;
+  }
+  #greenmode {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+  .login {
+    display: none;
+  }
+  .carousel-caption {
+    height: 45% !important;
+  }
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  .about-text {
+    padding-top: 50px;
+  }
+  .quote-waifu h1 {
+    padding-top: 110px;
+    font-size: 36px;
+  }
+  .section-quote {
+    padding: 75px 0%;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+}
