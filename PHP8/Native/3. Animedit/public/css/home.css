@@ -72,7 +72,7 @@ nav {
 }
 .logo {
   /* display: none; */
-  padding: 0px 325px 0px 0px;
+  padding: 0px 425px 0px 0px;
   font-size: 17.6px;
   font-weight: 600;
   color: var(--text-color);
@@ -96,7 +96,7 @@ nav {
   background: #2bb5df;
 }
 .login {
-  padding: 0px 0px 0px 325px;
+  padding: 0px 0px 0px 425px;
   font-weight: 500;
   text-align: right;
 }
@@ -231,6 +231,7 @@ nav {
 .img-anime {
   border-radius: 30px 30px 30px 30px;
 }
+
 .modal-content {
   background-color: var(--bg-color);
 }
@@ -317,6 +318,16 @@ footer {
     width: 1600px;
   }
 }
+
+@media (max-width: 1600px) {
+  .logo {
+    /* display: none; */
+    padding: 0px 325px 0px 0px;
+  }
+  .login {
+    padding: 0px 0px 0px 325px;
+  }
+}
 @media (max-width: 1440px) {
   .section-padding {
     padding: 80px 0;
@@ -350,6 +361,9 @@ footer {
   }
   .navbar a {
     padding: 14px;
+  }
+  .bg-img {
+    width: 1280px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
@@ -417,17 +431,24 @@ footer {
   .login {
     display: none;
   }
+  .carousel-item {
+    top: 75px;
+  }
   .carousel-caption {
     bottom: 200px;
   }
   .carousel-caption p {
     width: 100%;
   }
-  .carousel-item {
-    top: 75px;
-  }
   .card {
     margin-bottom: 30px;
+  }
+  .about-img {
+    width: 50%;
+  }
+  .rounded-circle {
+    margin-left: 160px;
+    margin-bottom: 50px;
   }
   .img-area img {
     width: 100%;
@@ -464,7 +485,6 @@ footer {
   .navbar {
     padding: 0;
   }
-
   .navbar.active {
     top: 100%;
   }
@@ -498,6 +518,10 @@ footer {
   .login {
     display: none;
   }
+  .bg-img {
+    width: 0;
+    object-fit: cover;
+  }
   .carousel-caption {
     height: 45% !important;
   }
@@ -516,6 +540,9 @@ footer {
   .about-text {
     padding-top: 50px;
   }
+  .rounded-circle {
+    margin-left: 0px;
+  }
   .quote-waifu h1 {
     padding-top: 110px;
     font-size: 36px;
@@ -525,5 +552,8 @@ footer {
   }
   .card {
     margin-bottom: 30px;
+  }
+  .mb-3 {
+    margin-bottom: 0rem !important;
   }
 }
