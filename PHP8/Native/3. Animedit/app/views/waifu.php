@@ -107,7 +107,7 @@ $waifu_user = query("SELECT * FROM waifu_user WHERE id_user = '$_SESSION[id_user
                                 <i class="bi bi-lg bi-trash" style="color: white; font-style:normal"></i>
                             </button>
                         </a>
-                        <img src="../../../public/img/upload_waifu/<?= $card['gambar']; ?>" class="img-fluid" alt="waifu" style="object-fit: cover; height: 225px;">
+                        <img src="../../public/img/upload_waifu/<?= $card['gambar']; ?>" class="img-fluid" alt="waifu" style="object-fit: cover; height: 225px;">
                         <div class="card-body py-2">
                             <h4 class="card-title mb-2">
                                 <?= $card['nama']; ?>
