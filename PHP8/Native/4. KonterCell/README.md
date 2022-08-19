@@ -37,14 +37,13 @@ Tujuan dibuatnya project ini sebagai latihan, dan menerapkan ke usaha milik oran
 - Sweetalert 2 (Library)
 - Select2
   
-### Cara penggunaan lewat ZIP
+### Cara penggunaan lewat ZIP pada Github
 
-Pastikan sudah terinstall Visual studio code, Xampp, dan PHP versi 8
+Pastikan sudah terinstall Visual studio code, XAMPP, dan PHP versi 8
 
 Jika dari github : 
 
-- Masuk ke repositori github
-- Pilih button `code`
+- Pilih button `code` yang berwarna hijau
 - Pada dropdown, pilih `download zip`
 - Setelah terdownload, extract file kedalam folder `htdocs` (sesuaikan dengan lokasi di device)
 - Setelah di extract, ubah nama folder `3. KonterCell-main` menjadi `KonterCell`
@@ -54,7 +53,7 @@ Jika dari github :
 - Pada form upload file, `import` file sql yaitu **db_konter_cell** yang ada pada hasil extract di `htdocs`
 - Scroll kebawah ada button import, klik `import`
 - Tunggu proses import file sql
-- Jika berhasil, maka akan ada beberapa tabel yang muncul pada **db_konter_cell**.
+- Jika berhasil, maka akan ada beberapa tabel yang muncul pada **db_konter_cell**
 - Buka visual studio code
 - Buka folder hasil ekstract di `htdocs`
 - Buka terminal yang ada pada visual studio code
@@ -70,5 +69,5 @@ Jika dari github :
 - Folder views
   Folder yang digunakan untuk menampung file program yang berisikan desain antarmuka website. folder views untuk mempermudah pengelompokan desain antarmuka yang anda buat.
 
-### Tanggal upload
-4 Agustus 2022
+### Tanggal Selesai
+- 4 Agustus 2022
