@@ -17,7 +17,7 @@ Halaman Profile :
 - Bisa melakukan perubahan pada data akun user
 
 
-### Cara penggunaan lewat ZIP pada Github
+## Cara penggunaan lewat ZIP pada Github
 
 Pastikan sudah terinstall code editor, XAMPP, dan PHP versi 8
 
@@ -35,7 +35,7 @@ Jika dari github :
 - Jika berhasil, maka akan ada tabel yang muncul ketika sudah selesai di import ke database **db_animedit**
 - Silahkan jalankan websitenya sesuai dengan penempatan file path di folder `htdocs` masing-masing device.
 
-### Teknologi yang dipakai
+## Teknologi yang dipakai
 
 - HTML5
 - CSS3
@@ -51,5 +51,5 @@ Localhost :
 Code editor :
 - Visual Studio Code
 
-### Tanggal Selesai
+## Tanggal Selesai
 - 25 Juli 2022

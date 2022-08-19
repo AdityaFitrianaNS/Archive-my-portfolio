@@ -20,7 +20,7 @@ Halaman User :
 - Melihat user yang login pada halaman website
 
 
-### Cara penggunaan lewat ZIP pada Github
+## Cara penggunaan lewat ZIP pada Github
 
 Pastikan sudah terinstall code editor, XAMPP, dan PHP versi 8
 
@@ -38,7 +38,7 @@ Jika dari github :
 - Jika berhasil, maka akan ada tabel yang muncul ketika sudah selesai di import ke database **db_inventory**
 - Silahkan jalankan websitenya di `localhost` sesuai dengan penempatan file path folder `htdocs` masing-masing device.
 
-### Teknologi yang dipakai
+## Teknologi yang dipakai
 
 - HTML5
 - CSS3
@@ -54,6 +54,6 @@ Localhost :
 Code editor :
 - Visual Studio Code
 
-### Tanggal Selesai
+## Tanggal Selesai
 - 1 Juli 2022
 

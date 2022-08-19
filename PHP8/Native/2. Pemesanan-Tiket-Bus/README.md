@@ -11,7 +11,7 @@
 - Invoice
   Bukti pembayaran setelah pemesanan tiket.
 
-### Cara penggunaan lewat ZIP pada Github
+## Cara penggunaan lewat ZIP pada Github
 
 Pastikan sudah terinstall code editor, XAMPP, dan PHP versi 8
 
@@ -29,7 +29,7 @@ Jika dari github :
 - Jika berhasil, maka akan ada tabel yang muncul ketika sudah selesai di import ke database **db_inventory**
 - Silahkan jalankan websitenya di `localhost` sesuai dengan penempatan file path folder `htdocs` masing-masing device.
 
-### Teknologi yang dipakai
+## Teknologi yang dipakai
 
 Aplikasi :
 - XAMPP (Untuk mengaktifkan localhost)

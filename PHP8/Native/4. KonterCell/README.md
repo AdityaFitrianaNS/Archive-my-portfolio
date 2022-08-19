@@ -3,11 +3,11 @@
    <h1 align="center"> KonterCell </h1>
 </p>
 
-### Tujuan
+## Deskripsi
 
-Tujuan dibuatnya project ini sebagai latihan, dan menerapkan ke usaha milik orangtua.
+Dibuatnya project ini sebagai latihan, dan menerapkan ke usaha milik orangtua walaupun masih dari local dan tidak di deploy kedalam hosting.
 
-### Fitur
+## Fitur
 
 - Login admin
   - Registrasi admin (jika dibutuhkan, jika tidak bisa dihapus)
@@ -26,7 +26,7 @@ Tujuan dibuatnya project ini sebagai latihan, dan menerapkan ke usaha milik oran
 - Seluruh Provider
   - Keuntungan terisi otomatis
 
-### Teknologi yang digunakan
+## Teknologi yang digunakan
 
 - HTML5
 - CSS3
@@ -37,7 +37,7 @@ Tujuan dibuatnya project ini sebagai latihan, dan menerapkan ke usaha milik oran
 - Sweetalert 2 (Library)
 - Select2
   
-### Cara penggunaan lewat ZIP pada Github
+## Cara penggunaan lewat ZIP pada Github
 
 Pastikan sudah terinstall Visual studio code, XAMPP, dan PHP versi 8
 
@@ -61,7 +61,7 @@ Jika dari github :
 - Tunggu hingga selesai
 - Jika muncul `node_modules` maka library berhasil dan website siap digunakan.
 
-### Kegunaan Folder
+## Kegunaan Folder
 - Folder public
   Menaruh file yang berkaitan styling/user interface seperti css dan javascript. beserta, resouce foto/gambar.
 - Folder controllers
@@ -69,5 +69,5 @@ Jika dari github :
 - Folder views
   Folder yang digunakan untuk menampung file program yang berisikan desain antarmuka website. folder views untuk mempermudah pengelompokan desain antarmuka yang anda buat.
 
-### Tanggal Selesai
+## Tanggal Selesai
 - 4 Agustus 2022
