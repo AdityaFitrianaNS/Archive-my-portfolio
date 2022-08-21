@@ -15,6 +15,6 @@ keyword.addEventListener('keyup', function(){
     }
 
     // Eksekusi AJAX
-    xhr.open('GET','../../../public/ajax/ajax_waifu.php?keyword=' + keyword.value, true);
+    xhr.open('GET','../../public/ajax/ajax_waifu.php?keyword=' + keyword.value, true);
     xhr.send();
 });

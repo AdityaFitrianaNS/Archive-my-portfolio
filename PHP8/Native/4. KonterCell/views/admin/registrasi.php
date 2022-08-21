@@ -42,7 +42,7 @@
                         <i class="bi bi-envelope"></i>
                      </span>
                      <!-- input email admin -->
-                     <input type="email" class="form-control" name="email" placeholder="Masukkan email admin" maxlength="10" required>
+                     <input type="email" class="form-control" name="email" placeholder="Masukkan email admin" maxlength="50" required>
                   </div>
                </div>
             </div>
