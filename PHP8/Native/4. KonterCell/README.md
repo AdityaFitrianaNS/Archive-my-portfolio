@@ -41,8 +41,9 @@ Dibuatnya project ini sebagai latihan, dan menerapkan ke usaha milik orangtua wa
 
 Pastikan sudah terinstall Visual studio code, XAMPP, dan PHP versi 8
 
-Jika dari github : 
+Jika dari github menggunakan zip : 
 
+- Masuk ke dalam <a href="https://github.com/AdityaFitrianaNS/KonterCell"> Repositori </a> terlebih dahulu
 - Pilih button `code` yang berwarna hijau
 - Pada dropdown, pilih `download zip`
 - Setelah terdownload, extract file kedalam folder `htdocs` (sesuaikan dengan lokasi di device)
