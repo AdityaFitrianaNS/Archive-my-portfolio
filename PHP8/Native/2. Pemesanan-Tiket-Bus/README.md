@@ -15,8 +15,9 @@
 
 Pastikan sudah terinstall code editor, XAMPP, dan PHP versi 8
 
-Jika dari github : 
+Jika dari github menggunakaan zip : 
 
+- Masuk kedalam <a href="https://github.com/AdityaFitrianaNS/Pemesanan-Tiket-Bus">Repositori </a>
 - Pilih button `code` yang berwarna hijau
 - Pada dropdown, pilih `download zip`
 - Setelah terdownload, extract file kedalam folder `htdocs` yang ada pada folder local
